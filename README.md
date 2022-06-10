@@ -1,4 +1,4 @@
-# Singleton
+# Singleton (en-us)
 ### **Description**
 
 > Ensuring that a class has only one instance by providing a global access point to that instance
@@ -88,7 +88,7 @@ Thread 1
 
 <br><br>
 ---
-# Singleton
+# Singleton (pt-br)
 ### **Descrição**
 
 > Garantir que uma classe tenha somente uma instância fornecendo um ponto de acesso global a essa instância
