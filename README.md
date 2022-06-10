@@ -38,7 +38,7 @@ Ensuring that in a multithreaded environment, any thread will have access to te 
 
 ### **Testing Implementation**
 Criamos duas instâncias de **Singleton** e comparamos se elas são iguais, garantindo assim o princípio de **"que uma classe tenha somente uma instância"**.
-```
+```cs
 static void Main(string[] args)
 {
     Singleton singleton1 = Singleton.Instance;
@@ -59,7 +59,7 @@ Equals
 ### **Testando em ambiente multi thread**
 Criamos dois métodos (**Thread1() e Thread2()**), cada método criando uma instância da classe **Singleton**. Observe que passamos a usar a classe **Parallel** para simulhar uma ambiente multi thread. Ela garante a chamada aos dois métodos de forma paralela.
 
-```
+```cs
 static void Main(string[] args)
 {
     Parallel.Invoke(
