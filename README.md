@@ -3,7 +3,7 @@
 
 > Ensuring that a class has only one instance by providing a global access point to that instance
 ---
-See at the UML Diagram below:
+Look at the UML Diagram below:
 
 * The Singleton class declares a static member **instance()** using the single instance of the class to handle the reference.
 * Private contructor without parameter, ensuring that no one can instantiate the class, only the class itself.
