@@ -85,8 +85,6 @@ Instance:1
 Thread 2
 Thread 1
 ```
-
-<br><br>
 ---
 # Singleton (pt-br)
 ### **Descrição**
