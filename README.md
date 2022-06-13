@@ -5,10 +5,10 @@
 ---
 Look at the UML Diagram below:
 
-* The Singleton class declares a static member **instance()** using the single instance of the class to handle the reference.
+* The Singleton class declares a static member **singleton()** using the single instance of the class to handle the reference.
 * Private contructor without parameter, ensuring that no one can instantiate the class, only the class itself.
-* Private and static member (property) of the same type as the class (**Instance**)
-* Chech if **Instance** field exists, otherwise instantiate itself for the first and only time.
+* Private and static member (property) of the same type as the class (**Singleton**)
+* Chech if **Singleton** field exists, otherwise instantiate itself for the first and only time.
 
 ![alt text](uml.png)
 
@@ -94,10 +94,10 @@ Thread 1
 ---
 Observe o Diagrama UML abaixo:
 
-* A classe Singleton declara um membro estático **instance()** usando para tratar a referência a única instância da classe.
+* A classe Singleton declara um membro estático **singleton()** usando para tratar a referência a única instância da classe.
 * Construtor privado e sem parâmetros, garatindo que ninguém consiga instanciar a classe, somente ela mesma.
-* Membro (propriedade) privado e estático do mesmo tipo da classe (**Instance**)
-* Verificando se o campo **instance** existe, se não, cria a instência de se mesmo pela primeira e única vez.
+* Membro (propriedade) privado e estático do mesmo tipo da classe (**Singleton**)
+* Verificando se o campo **singleton** existe, se não, cria a instência de se mesmo pela primeira e única vez.
 
 ![alt text](uml.png)
 
